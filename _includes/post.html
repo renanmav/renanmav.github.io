@@ -8,7 +8,11 @@
     </div>
     <div id="info-container">
       <h1 id="title">{{ page.title }}</h1>
+      {% if page.edited %}
+      <span id="date">{{ page.edited | date_to_string }}</span>
+      {% else %}
       <span id="date">{{ page.date | date_to_string }}</span>
+      {% endif %}
     </div>
   </div>
 
@@ -17,8 +21,13 @@
   </div>
   <div class="colophon">
     <p>
+      {% if page.date %}
       <span id="pub-date">Published on {{ page.date | date_to_string }}</span> <span class="separator">&bull;</span>
-      <span id="social">Find me on <a href="https://twitter.com/renanmav">Twitter</a>!</span>
+      {% endif %}
+      {% if page.edited %}
+      <span id="pub-date">Last edit on {{ page.edited | date_to_string }}</span> <span class="separator">&bull;</span>
+      {% endif %}
+      <span id="social">Find me on <a href="https://linkedin.com/in/renanmav">LinkedIn</a>!</span>
     </p>
   </div>
 </div>
