@@ -10,11 +10,11 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: images
+public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":year:/:month:/:filename:"
 build:
   preview_command: bundle exec jekyll build --drafts --unpublished --future -d _site
   publish_command: bundle exec jekyll build -d _site
