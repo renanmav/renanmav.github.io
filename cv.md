@@ -2,13 +2,13 @@
 layout: post
 title: Renan Machado
 cover: renan-and-jake.jpg
-date: 2019-05-10 15:00:00
----
+date: 2019-05-10T15:00:00.000+00:00
 
+---
 ## Education
 
-- Bachelor's degree, Electrical Engineering, UFT (Dec/2019)
-- Technician's degree, Computer Networks, CPM-TO (Dec/2013)
+* Bachelor's degree, Electrical Engineering, UFT (Dec/2019)
+* Technician's degree, Computer Networks, CPM-TO (Dec/2013)
 
 ## Work Experience
 
@@ -17,8 +17,8 @@ date: 2019-05-10 15:00:00
 
 ## Languages
 
-- English: Advanced
-- Portuguese: Native
+* English: Advanced
+* Portuguese: Native
 
 ## Other Activities
 
@@ -28,8 +28,9 @@ date: 2019-05-10 15:00:00
 
 ## Complementary Education
 
-- Machine Learning with Python Track (Datacamp)
-  - Supervised Learning with scikit-learning
-  - Unsupervised Learning in Python
-  - Linear Classifiers in Python
-  - Machine Learning with the Experts: School Budgets
+* Machine Learning with Python Track (Datacamp)
+  * Supervised Learning with scikit-learning
+  * Unsupervised Learning in Python
+  * Linear Classifiers in Python
+  * Machine Learning with the Experts: School Budgets
+* Developing Big Data Solutions with Azure Machine Learning (edX)
