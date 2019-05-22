@@ -3,6 +3,7 @@ layout: post
 title: Renan Machado
 cover: renan-and-jake.jpg
 date: 2019-05-10T15:00:00.000+00:00
+edited: 2019-05-22
 
 ---
 ## Education
